@@ -9,10 +9,15 @@ body{
 }
  nav{   
     background-color: #00821e;
-    color: #fff;
-    padding: 20px;
-    font-size: 2em;
     text-align: right;
+ }
+ nav button{
+   background-color: transparent;
+   border: none;
+   padding: 15px;
+   cursor: pointer;
+   font-size: 2em;
+   color: #fff;
  }
  
  .container{
@@ -50,3 +55,27 @@ body{
     background-color: transparent;
     cursor: pointer;
  }
+.korzina{
+   position: fixed;
+   top:10px;
+   left: 10px;
+   right: 10px;
+   bottom: 10px;
+   background-color: #fff;
+   padding: 50px;
+}
+.close{
+   position: absolute;
+   top: 20px;
+   right: 20px;
+   font-size: 3em;
+   font-weight: bold;
+}
+.summa{
+   width: 30%;
+   display: flex;
+   justify-content: space-between;
+}
+.hidden{
+   display: none;
+}
